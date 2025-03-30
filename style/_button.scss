@@ -1,0 +1,14 @@
+.button {
+    padding: 24px 55px;
+    border: none;
+    background: #34547A;
+    color: #fff;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+        background: #45608c;
+    }
+}
