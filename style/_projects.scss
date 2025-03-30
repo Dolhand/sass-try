@@ -1,4 +1,4 @@
-@mixin project ($margin: 0, $font-weight, $font-size) {
+@mixin project ($margin, $font-weight, $font-size) {
     margin: $margin;
     font-weight: $font-weight;
     font-size: $font-size;
@@ -27,11 +27,11 @@
     }
 
     &__number {
-        @include project($margin, 500, 21px);
+        @include project(0, 500, 21px);
     }
 
     &__type {
-        @include project($margin, 400, 16px);
+        @include project(0, 400, 16px);
     }
 }
   
