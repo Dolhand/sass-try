@@ -1,0 +1,29 @@
+.about {
+    padding-top: 112px;
+    padding-bottom: 100px;
+  }
+  
+.section-title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    margin: 0 0 50px;
+    color: #000;
+  }
+  
+.section-description {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 540px;
+  
+   &:not(:last-child) {
+    margin-bottom: 57px;
+  }
+}
+
+.how-work {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #EEEFF1;
+  }
