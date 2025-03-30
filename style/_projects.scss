@@ -1,0 +1,38 @@
+@mixin project ($margin: 0, $font-weight, $font-size) {
+    margin: $margin;
+    font-weight: $font-weight;
+    font-size: $font-size;
+}
+
+.projects {
+    background: #34547A;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+
+    &__item {
+        display: grid;
+        grid-template-columns: 50px auto;
+        grid-template-rows: min-content min-content;
+        gap: 5px 20px;
+        align-items: center;
+        line-height: 1;
+    }
+
+    &__icon {
+        grid-row: span 2;
+    }
+
+    &__number {
+        @include project($margin, 500, 21px);
+    }
+
+    &__type {
+        @include project($margin, 400, 16px);
+    }
+}
+  
+  
